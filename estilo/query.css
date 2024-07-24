@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.733), rgb(192, 192, 192));
+    }
+    section#login{
+        width: 90vw;    
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-image: url(imagem/castelo.jpg);
+        background-position: left;
+    
+    }
+    
+    
+    section#login > div#formulario{
+        float: right;
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.705), rgb(192, 192, 192));
+    }
+    section#login{
+        width: 90vw;    
+    }
+    section#login > div#imagem {
+        background-image: url(imagem/castelo.jpg);
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-position: left;
+    
+    }
+}
+    
+    
+    section#login > div#formulario{
+        float: left;
+        width: 50%;
+}
+    
+
+
